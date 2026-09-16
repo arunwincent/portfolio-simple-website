@@ -121,20 +121,17 @@ margin-top: 10px;
         padding: 20px;
     }
 
-    .section-two {
-        white-space: nowrap;
-    }
-
     .section-three {
         width: 100px;
-        height: 200px;
-        white-space: normal;
     }
 
     .section-four {
-        width: calc(100% - 220px);
-        height: 200px;
-        white-space: normal;
+        width: calc(100% - 180px);
     }
 
+}
+.section-four{
+width: cal(100%-180px);
+height: 200px;
+white-space: normal;
 }
