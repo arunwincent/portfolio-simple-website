@@ -105,3 +105,16 @@ margin-top: 10px;
   color: black;
   border: none;
 }
+/* Mobile view */
+
+@media screen and (max-width: 600px) {
+
+    .section-three,
+    .section-four {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
