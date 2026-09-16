@@ -105,16 +105,21 @@ margin-top: 10px;
   color: black;
   border: none;
 }
-/* Mobile view */
 
 @media screen and (max-width: 600px) {
 
-    .section-three,
+    .container {
+        padding: 20px;
+    }
+
+    .section-three {
+        width: 100px;
+        height: 200px;
+    }
+
     .section-four {
-        display: block;
-        width: 100%;
-        height: auto;
-        margin-top: 20px;
+        width: calc(100% - 180px);
+        height: 200px;
     }
 
 }
