@@ -130,4 +130,8 @@ margin-top: 10px;
     }
 
 }
-
+.section-four{
+width: calc(100% - 185px);
+height:200px;
+white-space: normal;
+}
