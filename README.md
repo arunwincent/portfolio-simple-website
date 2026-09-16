@@ -77,7 +77,7 @@ Through this project, I practiced:
 
 You can view my portfolio website using the link below:
 
-🔗 [View My Portfolio](YOUR-LIVE-WEBSITE-LINK)
+🔗 https://arunwincent.github.io/portfolio-simple-website/index.html
 
 
 ❤️ Thank You
