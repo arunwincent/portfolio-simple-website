@@ -105,22 +105,31 @@ margin-top: 10px;
   color: black;
   border: none;
 }
+.section-three-four {
+    white-space: nowrap;
+}
 
+.section-three,
+.section-four {
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
+}
 @media screen and (max-width: 600px) {
 
     .container {
         padding: 20px;
     }
 
-    .section-two {
-        white-space: nowrap;
-    }
-
     .section-three {
         width: 100px;
-        height: 200px;
-        white-space: normal;
     }
+
+    .section-four {
+        width: calc(100% - 180px);
+    }
+
+}
 
     .section-four {
         width: calc(100% - 180px);
